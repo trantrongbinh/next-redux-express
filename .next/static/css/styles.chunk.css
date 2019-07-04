@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #c00000;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em; }
+  .container .title {
+    font-family: "Raleway";
+    color: #fff; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
