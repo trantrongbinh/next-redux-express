@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
 
-import '../scss/style.scss'
+import '../less/style.less'
 
 const Home = () => (
   <div>
