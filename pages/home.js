@@ -1,3 +1,4 @@
+import NoSSR from 'react-no-ssr'
 import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
@@ -17,11 +18,16 @@ const Home = () => (
       <h1 className="title">
         Hello, from website
       </h1>
-      <Link href="/contact">
+      <Link href='/contact' as='/contact'>
         <a>Contact</a>
       </Link>
-      <Link href="/blog">
-        <a>Blog</a>
+      <NoSSR>
+        <Link href='/blog?id=first' as='/blog/first'>
+          <a>Blog</a>
+        </Link>
+      </NoSSR>
+      <Link href='/posts' as='/posts'>
+        <a>post #1</a>
       </Link>
     </div>
   </div>

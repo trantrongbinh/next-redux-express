@@ -3842,12 +3842,12 @@ exports.default = Loadable;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_afa7b25a60452594c240 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_43fdc562a96c55866f3e ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_afa7b25a60452594c240 */ "dll-reference dll_afa7b25a60452594c240"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_43fdc562a96c55866f3e */ "dll-reference dll_43fdc562a96c55866f3e"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -3864,20 +3864,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "./node_modules/next-server/dist/lib/dynamic.js");
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/ttb/Desktop/next-redux-express-base/pages/index.js";
 
 
 var Home = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(function () {
   return Promise.all(/*! import() */[__webpack_require__.e("styles"), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! ./home */ "./pages/home.js"));
 }, {
   loading: function loading() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 4
-      },
-      __self: this
-    }, "loading...");
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "loading...");
   },
   loadableGenerated: {
     webpack: function webpack() {
@@ -3888,26 +3881,14 @@ var Home = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(function () {
 });
 
 var App = function App() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Home, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Home, null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
 
 /***/ }),
 
-/***/ 0:
+/***/ 15:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fttb%2FDesktop%2Fnext-redux-express-base%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************/
@@ -3919,16 +3900,16 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ "dll-reference dll_afa7b25a60452594c240":
+/***/ "dll-reference dll_43fdc562a96c55866f3e":
 /*!*******************************************!*\
-  !*** external "dll_afa7b25a60452594c240" ***!
+  !*** external "dll_43fdc562a96c55866f3e" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_afa7b25a60452594c240;
+module.exports = dll_43fdc562a96c55866f3e;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[15,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
