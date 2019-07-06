@@ -1,9 +1,13 @@
+import getConfig from 'next/config'
 import NoSSR from 'react-no-ssr'
 import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
 
 import '../less/style.less'
+
+const { publicRuntimeConfig } = getConfig()
+const { API_URL } = publicRuntimeConfig
 
 const Home = () => (
   <div>
@@ -16,10 +20,10 @@ const Home = () => (
 
     <div className="container">
       <h1 className="title">
-        Hello, from website
+        Hello, from website ({process.env.TEST})
       </h1>
       <Link href='/contact' as='/contact'>
-        <a>Contact</a>
+        <a>Contact { API_URL }</a>
       </Link>
       <NoSSR>
         <Link href='/blog?id=first' as='/blog/first'>
